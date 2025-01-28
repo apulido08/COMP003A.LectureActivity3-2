@@ -21,6 +21,12 @@ namespace COMP003A.LectureActivity3_2
             // the first statement initializes the loop variable i to 1
             // the second statement specifies the condition for the loop to continue
             // the third statement increments the loop variable i by 1
+            for (int i = 1; i <= 10; i++)
+            {
+                // display the multiplication table
+                Console.WriteLine($"{i} x {num} = {i * num}");
+            }
+
         }
     }
 }
