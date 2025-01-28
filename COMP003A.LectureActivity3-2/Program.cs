@@ -39,7 +39,20 @@ namespace COMP003A.LectureActivity3_2
                 reverse--;
             }
 
-
+            // Display fibonacci series using a do-while loop
+            Console.WriteLine("\nFibonacci Series:");
+            int firstNumber = 0, secondNumber = 1, nextNumber; // first two numbers
+            Console.Write($"{firstNumber} {secondNumber} "); // display first two numbers
+            int count = 2; // count starts at 2
+            // loop to generate the next 10 numbers in the series
+            do
+            {
+                nextNumber = firstNumber + secondNumber; // calculate next number
+                Console.Write($"{nextNumber} "); // display next number
+                firstNumber = secondNumber; // update first number
+                secondNumber = nextNumber; // update second number
+                count++; // increment couint
+            } while (count < 10); // loop until countr reaches 10
 
         }
     }
