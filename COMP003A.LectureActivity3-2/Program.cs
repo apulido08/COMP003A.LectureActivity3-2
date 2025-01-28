@@ -27,6 +27,20 @@ namespace COMP003A.LectureActivity3_2
                 Console.WriteLine($"{i} x {num} = {i * num}");
             }
 
+            // Display table in reverse using while loop
+            Console.WriteLine("\nReversed Multiplication Table:");
+            int reverse = 10; // start at 10
+            // loop to generate the mutiplication table in reverse
+            while (reverse > 0)
+            {
+                // display the multiplicaiton table in reverse
+                Console.WriteLine($"{reverse} x {num} = {reverse * num}");
+                // decrement reverse
+                reverse--;
+            }
+
+
+
         }
     }
 }
