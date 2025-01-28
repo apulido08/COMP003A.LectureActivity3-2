@@ -54,6 +54,20 @@ namespace COMP003A.LectureActivity3_2
                 count++; // increment couint
             } while (count < 10); // loop until countr reaches 10
 
+
+            // Display favorite fruits in a collection using a foreach loop
+            // Create an array of fruits | data structure preview
+            string[] fruits = { "Apple", "Banana", "Pear", "Strawberry" };
+
+            Console.WriteLine("\n");
+            // Display each fruit using a foreach loop
+            Console.WriteLine("Your favorite fruits are:");
+            // loop through each fruit in the array
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine($"- {fruit}");
+            }
+
         }
     }
 }
